@@ -1,0 +1,10 @@
+```jsx
+<ScrollBar
+    getScrollDom={this.getColumnsScrollRefDom}
+    getBaseDom={this.getColumnsBaseRefDom}
+    getContainerDom={this.getCellsScrollRefDom}
+    getScrollDomWidthAndHeight={getTotalWidthAndHeight}
+    direction="x"
+    ref={this.scrollbarXRef}
+/>
+```
